@@ -1,0 +1,40 @@
+<!-- <!doctype html> -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>findemy admin</title>
+    <base href="/adminPanel/">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=1024">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+    <link rel="shortcut icon" href="assets/images/angular_logo.png">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="https://cdn.ckeditor.com/4.6.1/full/ckeditor.js"></script>
+
+</head>
+
+<body style="background:#f6faff;">
+    <app-root></app-root>
+
+    <script>
+        $('.table-responsive').on('show.bs.dropdown', function () {
+            $('.table-responsive').css("overflow", "inherit");
+        });
+
+        $('.table-responsive').on('hide.bs.dropdown', function () {
+            $('.table-responsive').css("overflow", "auto");
+        })
+    </script>
+
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+
+</html>
